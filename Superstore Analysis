@@ -42,7 +42,7 @@ SELECT item_name, price
 FROM superstore
 ORDER BY price DESC
 ;
--- #3 query to show how many different items in the database
+-- #3 query to show how many different items are in the database
 SELECT COUNT (item_name)
 FROM superstore
 ;
