@@ -1,4 +1,4 @@
-#This project utilizes the following fake Fortune 500 data:
+#This project utilizes the following Fortune 500 data:
 
 CREATE TABLE fortune_companies (
     company_id INTEGER PRIMARY KEY,
@@ -58,13 +58,8 @@ VALUES
     ('Company JJ', 'Manufacturing', 370.0, 3100, 1, 20, 12, 7.6),
     ('Company KK', 'Healthcare', 150.2, 3400, 0, 16, 8, 5.3);
 
-#For this project, I queried the fortune_companies database find the top companies by revenue, the number of companies in each industry, the industries that have more than 10 days off on average, and which companies provide healthcare
+#For this project, I queried the fortune_companies database to find the top companies by revenue, the number of companies in each industry, the industries that have more than 10 days off on average, and which companies provide healthcare
 
-0. [get column headings]
-SELECT *
-FROM fortune_companies
-LIMIT 5
-;
 -- 1. [query for top 10 companies by total revenue]
 SELECT company_name, revenue
 FROM fortune_companies
